@@ -1,0 +1,3 @@
+BUILD STATUS
+This environment has Java 21 but no Gradle installation and no network/DNS access to download Fabric Loom, Minecraft mappings, or Fabric API. Therefore a compiled JAR could not be produced or runtime-tested here.
+The ZIP contains the Gradle source project, not a ready-to-install JAR. Use Gradle 8.10+ / the Fabric Loom 1.9.2 plugin with internet access and Java 21 to build it.

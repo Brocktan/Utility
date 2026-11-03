@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "fakeutility",
+  "version": "${version}",
+  "name": "Fake Utility",
+  "description": "Client-side visual item and block disguises with a configurable lootdrop mapping screen.",
+  "authors": ["JustNoobie"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.justnoobie.fakeutility.client.FakeUtilityClient"] },
+  "mixins": ["fakeutility.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
